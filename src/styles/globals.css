@@ -24,35 +24,3 @@
   gap: 20px;
 }
 
-nav {
-  background-color: var(--bg-dark);
-  padding: 10px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; /* Center the nav items horizontally */
-  flex-wrap: wrap;
-}
-
-nav li {
-  margin: 10px;
-  list-style-type: none;
-}
-
-nav a {
-  color: var(--color-white);
-  text-decoration: none;
-  transition: color 0.2s ease;
-  padding: 12px 16px;
-}
-
-nav a:hover {
-  color: var(--color-dark-light);
-}
-
