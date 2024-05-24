@@ -1,8 +1,8 @@
 import AddTeamForm from "@/componenets/Forms/AddTeamForm";
 
-const AddTeamPage = () =>{
+const CreateTeamPage = () =>{
     return(
         <AddTeamForm/>
     )
 }
-export default AddTeamPage;
+export default CreateTeamPage;

@@ -9,4 +9,5 @@ const api = axios.create({
 });
 
 // Team APIs
+export const getTeams = () => api.get('/teams');
 export const createTeam = (team: Team) => api.post('/teams', team);
