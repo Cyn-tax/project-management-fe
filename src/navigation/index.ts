@@ -29,6 +29,11 @@ const NavigationLinks = [
         path: '/members',
         label: 'All Members'
     },
+    {
+        id: 6,
+        path: '/members/project/create',
+        label: 'Add MemberProject'
+    },
 ]
 
 export default NavigationLinks;

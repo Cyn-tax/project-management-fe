@@ -8,6 +8,12 @@ export interface Project {
     name: string;
 }
 
+export interface MemberProject {
+    id?:  number;
+    member_id: string;
+    project_id: string;
+}
+
 export interface Member {
     id?: string;
     first_name: string;
