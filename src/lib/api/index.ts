@@ -19,4 +19,5 @@ export const getProjectMembers = (projectId: string) => api.get(`/projects/${pro
 export const createProject = (project: Project) => api.post('/projects', project);
 
 // Member APIs
+export const getMembers = () => api.get('/members');
 export const createMember = (member: Member) => api.post('/members', member);
