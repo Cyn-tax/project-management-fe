@@ -13,6 +13,16 @@ const NavigationLinks = [
         id: 3,
         path: '/members/create',
         label: 'Create Member'
+    },
+    {
+        id: 4,
+        path: '/projects',
+        label: 'Projects'
+    },
+    {
+        id: 5,
+        path: '/projects/create',
+        label: 'Create Project'
     }
 ]
 

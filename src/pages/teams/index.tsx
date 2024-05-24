@@ -3,7 +3,7 @@ import { getTeams } from "@/lib/api";
 import { Team } from "@/types";
 import { useState, useEffect } from "react";
 
-const Viewteams = () => {
+const ViewTeams = () => {
 
     const [teams, setTeams] = useState<Team[]>([]);
 
@@ -19,4 +19,4 @@ const Viewteams = () => {
     </div>
   );
 };
-export default Viewteams;
+export default ViewTeams;
