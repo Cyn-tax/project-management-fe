@@ -1,21 +1,24 @@
 import AddMemberForm from "@/components/Forms/AddMemberForm";
 import { getTeams } from "@/lib/api";
 import { Team } from "@/types";
-import { useState, useEffect } from "react";
 
-const CreateTeamPage = () =>{
-
-    const [teams, setTeams] = useState<Team[]>([]);
-
-    useEffect(() => {
-        getTeams().then(response => {
-          setTeams(response.data.teams);
-        });
-      }, []);
-
-    
-    return(
-        <AddMemberForm teams={teams}/>
-    )
+interface CreateMemberPageProps {
+  teams: Team[];
 }
-export default CreateTeamPage;
+
+const CreateMemberPage = ({ teams }: CreateMemberPageProps) => {
+  return <AddMemberForm teams={teams} />;
+};
+
+export const getServerSideProps = async () => {
+  const response = await getTeams();
+  const teams = response.data.teams;
+
+  return {
+    props: {
+      teams,
+    },
+  };
+};
+
+export default CreateMemberPage;
