@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Management 
 
-## Getting Started
+The following is the navigation structure for the Project Management App:
+## Navigation Links:
 
-First, run the development server:
+1. **Teams**: Navigate to view all teams.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Add Team**: Navigate to create a new team.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Create Member**: Navigate to add a new member.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+4. **Projects**: Navigate to view all projects.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+5. **Create Project**: Navigate to create a new project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+6. **All Members**: Navigate to view all members.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+7. **Add MemberProject**: Navigate to add a member to a project.
 
-## Learn More
+This navigation structure helps users easily navigate through different sections of the project management app, allowing them to manage teams, members, and projects efficiently.
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Information 
+To set up the Project Management App, follow these steps: 
+1. **Clone the Repository:** Clone the repository containing the project files
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   `git clone https://github.com/Cyn-tax/project-management-fe`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   `cd project-management-fe`
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Install Dependencies:** Navigate to the project directory and run `npm install` or `yarn install` to install all necessary dependencies. 
+3. **Run the App:** After installing dependencies, run `npm dev or `yarn dev` to start the development server. Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
+4. **Explore the Navigation:** With the app running, you can explore the navigation structure outlined below to navigate through different sections of the app.
