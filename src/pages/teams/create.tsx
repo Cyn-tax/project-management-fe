@@ -1,4 +1,4 @@
-import AddTeamForm from "@/componenets/Forms/AddTeamForm";
+import AddTeamForm from "@/components/Forms/AddTeamForm";
 
 const CreateTeamPage = () =>{
     return(

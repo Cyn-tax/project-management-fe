@@ -1,4 +1,4 @@
-import type { Team } from '@/types';
+import type { Team, Member } from '@/types';
 import axios from 'axios';
 
 const api = axios.create({
@@ -11,3 +11,6 @@ const api = axios.create({
 // Team APIs
 export const getTeams = () => api.get('/teams');
 export const createTeam = (team: Team) => api.post('/teams', team);
+
+// Member APIs
+export const createMember = (member: Member) => api.post('/members', member);

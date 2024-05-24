@@ -1,4 +1,4 @@
-import ListTeams from "@/componenets/Lists/ListTeams";
+import ListTeams from "@/components/Lists/ListTeams";
 import { getTeams } from "@/lib/api";
 import { Team } from "@/types";
 import { useState, useEffect } from "react";

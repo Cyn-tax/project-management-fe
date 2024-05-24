@@ -8,6 +8,11 @@ const NavigationLinks = [
         id: 2,
         path: '/teams/create',
         label: 'Add Team'
+    },
+    {
+        id: 3,
+        path: '/members/create',
+        label: 'Create Member'
     }
 ]
 

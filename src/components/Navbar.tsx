@@ -1,7 +1,7 @@
 import Link from "next/link";
 import NavigationLinks from "@/navigation";
 
-const Navigation = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <ul className="navbar-nav mr-auto">
@@ -17,4 +17,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Navbar;
